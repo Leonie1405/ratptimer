@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Blab</title>
+  <meta name="description" content="qqesd">
+  <meta name="author" content="SitePoint">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+</head>
+<body onload="initElement();">
+  <header>
+    <h1 class="main-title">RATP-TIMER</h1>
+    <nav class="menu">
+      <a href="./index.html">Accueil</a>
+      <a class="active" href="./metro.html">Metro</a>
+      <a href="./apropos.html">A propos du site</a>
+      <a href="./quisommesnous.html">Qui sommes-nous ?</a>
+    </nav>
+  </header>
+  <div class="container">
+    <h2 class="second-title">Choisis ta ligne !</h2>
+    <div class="transports-lines">
+      <img src="styles/assets/metros/1.svg" alt="Ligne 1" id="m1" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/2.svg" alt="Ligne 2" id="m2" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/3.svg" alt="Ligne 3" id="m3" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/4.svg" alt="Ligne 4" id="m4" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/5.svg" alt="Ligne 5" id="m5" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/6.svg" alt="Ligne 6" id="m6" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/7.svg" alt="Ligne 7" id="m7" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/7b.svg" alt="Ligne 7B" id="m7b" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/8.svg" alt="Ligne 8" id="m8" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/9.svg" alt="Ligne 9" id="m9" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/10.svg" alt="Ligne 10" id="m10" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/11.svg" alt="Ligne 11" id="m11" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/12.svg" alt="Ligne 12" id="m12" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/13.svg" alt="Ligne 13" id="m13" height="100px" width="100px" class="line" />
+      <img src="styles/assets/metros/14.svg" alt="Ligne 14" id="m14" height="100px" width="100px" class="line" />
+    </div>
+    <div class="stations-part" id="stations">
+      <h2>... et maintenant choisis ta station</h2>
+      <div class="line"></div>
+      <div class="code"></div>
+    
+
+      <div class="stations" id="station-name">
+
+      </div>
+    </div>
+    <div class="schedule" id="schedule">
+      <h2>Voici les horaires pour ta station !</h2>
+      <ul id="schedules">
+      </ul>
+    <br/>
+    </div>
+  </div>
+  <footer>
+    <p>Created by Léonie & Nils for Efrei school project !</p>
+  </footer>
+  <script src="js/script.js"></script>  
+</body>
+</html>
